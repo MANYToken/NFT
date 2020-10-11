@@ -272,19 +272,6 @@
         "type": "function"
     },
     {
-        "inputs": [],
-        "name": "ERCInterface",
-        "outputs": [
-            {
-                "internalType": "contract IERC20",
-                "name": "",
-                "type": "address"
-            }
-        ],
-        "stateMutability": "view",
-        "type": "function"
-    },
-    {
         "inputs": [
             {
                 "internalType": "uint256",
