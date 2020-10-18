@@ -1,25 +1,32 @@
-Deployed to Main net at address here
-https://etherscan.io/address/0x11ca23350f873e5352345ad4df5ab8259e97c6b0
+deployed to MAINNET address
+https://etherscan.io/address/0x44009ae631ff633fa2e9157b78623ee619688789
 
-3 tokens have been created, 1 of each rarity
-https://etherscan.io/tx/0x7d0f2a8b2e67e646a5e34515bbeb4d3dbf84e195b35ba897570661622fb5f605
-https://etherscan.io/tx/0xb0ad45140a534482446676a79442da9470062a0977d7da7ab59231286b11de4c
-https://etherscan.io/tx/0x20e0c5ec450d290853539eac5846c4a5db716079b861b685b098773c762d56a4
+TO USE MINT FUNCTIONS
+must call "approve" on the moar contract
+https://etherscan.io/address/0xbf131dcbe3436dab8a7c82d9c3666d652ca38eab#writeContract
+use the args on the approve function
+spender: 0x44009ae631ff633fa2e9157b78623ee619688789
+amount: 10000000000000000000000
 
+NFTs
+The "TokenURI" will contain the address of the picture - currently links to many.global
 
+The TokenURI is the only argument needed when minting a token
 
-test version changes
-- burn when create was removed and needs to be fixed
+TokenID
+"rarity score" is on the left of the TokenID
+10 = rare
+25 = epic
+137 = legendary
 
+"Token number" is on the right of the TokenID
+Just 1, 2, 3
 
+Legendary token
+https://etherscan.io/tx/0x9ac9bc98ad4fb4f2ec529372cd2cfd2ccf14a0d63ddc9affaef3e42ec5cfbe5f
 
-next to do
-- add function to mint a a limited number of copies of already existing tokens
-    - this will burn at least the same amount of tokens as the priginal mint, and also pay some to the creator
+Epic Token
+https://etherscan.io/tx/0x8e988eff8f3e61c27b972af6514792a4d9677ddc7faa974465b4b563435442c3
 
-
-
-import ABI to front end to access functions
-
-Important function calls are "mintRare", "mintEpic", "mintlegendary" 
-- They take 1 arg, a string. This will be the address of picture to load
+Rare Token
+https://etherscan.io/tx/0xa71c410c3799f39688bb4ce24b6bd5fd7dd0a3d27dcc5ac685baa55837168ccd
